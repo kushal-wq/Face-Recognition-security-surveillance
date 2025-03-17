@@ -16,7 +16,6 @@ import pyaudio
 import wave
 import uuid  # For generating unique filenames
 
-
 class SpeechRecognitionThread(QThread):
     """Thread for handling speech recognition in the background using OpenAI Whisper."""
     command_signal = pyqtSignal(str)
